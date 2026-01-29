@@ -9,7 +9,7 @@ public class Chien extends Animal {
         this.breed = breed;
     }
 	public void bark() {
-        System.out.println("wangwang");
+        System.out.println("I CAN WANG AND I LIKE CAT");
     }
 	public void sleep() {
         System.out.println("je dors");

@@ -1,6 +1,5 @@
 package Q;
 import java.util.List;
-import java.util.ArrayList;
 public class Animal {
 
 	private List<int[]> color;
