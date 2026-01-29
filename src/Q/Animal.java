@@ -7,11 +7,14 @@ public class Animal {
     private boolean isCarnivore;
     public Animal(List<int[]> color, boolean isCarnivore) {
         this.color = color;
-        this.isCarnivore = isCarnivore;
+        this. = isCarnivore;
     }
-	@Override
-	public String toString() {
-		return "Ceci est un animal";
-	}
-     
+  
+
+    @Override
+     String toString() {
+        return "Color: " + color + ", Carnivore: " + isCarnivore;
+    }
+
+
 }
