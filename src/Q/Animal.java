@@ -9,5 +9,9 @@ public class Animal {
         this.color = color;
         this.isCarnivore = isCarnivore;
     }
+    @Override
+    public String toString() {
+        return "Color: " + color + ", Carnivore: " + isCarnivore;
+    }
 
 }
